@@ -168,8 +168,9 @@ footer {
 
 
 @media (max-width: 768px) {
-  body,
-  .experience-item p {
+  p,
+  .experience-item p,
+  li {
     font-size: 3.25vw; }
   a {
     font-size: 4vw; }
@@ -198,8 +199,9 @@ footer {
 @media (max-width: 576px) {
   header {
     margin-top: 27vw; }
-  body,
-  .experience-item p {
+  p,
+  .experience-item p,
+  li {
     font-size: 5vw; }
   a {
     font-size: 5.5vw; }
