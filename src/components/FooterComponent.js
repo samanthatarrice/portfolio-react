@@ -11,9 +11,9 @@ class Footer extends Component {
           </div>
           <p class="text-center mt-5 mt-md-0">2022 © Samantha Tarrice</p>
           <p class="text-center">[Attribution]</p>
-          <div class="d-flex justify-content-center">
-            <i class="fab fa-github-square m-3"></i>
-            <i class="fab fa-linkedin m-3"></i>
+          <div class="d-flex justify-content-center footer-fa">
+            <a href="https://github.com/samanthatarrice" target="_blank"><i class="fab fa-github-square m-3" /></a>
+            <a href="https://www.linkedin.com/in/starrice/" target="_blank"><i class="fab fa-linkedin m-3" /></a>
           </div>
         </footer>
       </React.Fragment>

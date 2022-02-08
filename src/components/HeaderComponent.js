@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Navbar, NavbarBrand, NavbarToggler, Collapse, Nav, NavLink, NavItem } from 'reactstrap';
 
 class Header extends Component {
   render() {
@@ -13,9 +12,6 @@ class Header extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav w-100 d-flex justify-content-evenly">
-                <li className="nav-item active ms-auto d-md-none mt-2">
-                  <a href="#" className="nav-link active" aria-current="page">Home</a>
-                </li>
                 <li className="nav-item text-end ms-auto">
                   <a href="#portfolio" className="nav-link">Portfolio</a>
                 </li>
@@ -29,31 +25,7 @@ class Header extends Component {
             </div>
           </div>
         </nav>
-        {/* <Navbar className="navbar navbar-dark navbar-expand-md fixed-top py-md-3">
-          <NavbarBrand className="d-md-none"href="/">
-            Samantha Tarrice
-          </NavbarBrand>
-          <NavbarToggler onClick={function noRefCheck(){}} />
-          <Collapse navbar>
-            <Nav className="me-auto" navbar>
-              <NavItem>
-                <NavLink href="/components/">
-                  Portfolio
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/components/">
-                  About
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="/components/">
-                  Contact
-                </NavLink>
-              </NavItem>
-            </Nav>
-          </Collapse>
-        </Navbar> */}
+        
         <header>
           <div className="container">
             <div className="row">

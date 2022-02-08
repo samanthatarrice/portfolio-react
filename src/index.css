@@ -4,9 +4,11 @@
   vertical-align: bottom; }
 
 p,
-a {
+a,
+li {
   font-family: "Mali", sans-serif;
-  font-size: 1.75vw; }
+  font-size: 1.75vw; 
+  color: black; }
 
 h1, h2, h3, h4 {
   font-family: "Lilita One", cursive;
@@ -15,7 +17,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 7vw;
   width: 40vw;
-  background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #8082b7);
+  background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #5da6cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -23,7 +25,7 @@ h2 {
   font-size: 6vw;
   width: 23vw;
   margin: 0 auto;
-  background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #8082b7);
+  background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #5da6cb);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
@@ -134,6 +136,17 @@ header {
     left: 5%;
     width: 90%; }
 
+.portfolio-fa {
+  width: 20%;
+  height: 20%;
+}
+
+.portfolio-fa:hover {
+  background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #8082b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 /*--------------------
         ABOUT
 --------------------*/
@@ -165,6 +178,10 @@ header {
 --------------------*/
 footer {
   background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); }
+
+.footer-fa a:hover {
+  color: #5da6cb;
+}
 
 
 @media (max-width: 768px) {

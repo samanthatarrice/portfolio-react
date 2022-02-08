@@ -94,7 +94,7 @@ class Portfolio extends Component {
           </div>
           <div className="text-center my-5 py-3">
             <p>See more of my work on <span>Github</span></p>
-            <i className="fab fa-github"></i>
+            <a href="https://github.com/samanthatarrice" target="_blank"><i className="portfolio-fa fab fa-github" /></a>
           </div>
         </section>
       </React.Fragment>
