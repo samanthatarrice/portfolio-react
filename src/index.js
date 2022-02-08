@@ -3,6 +3,8 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'typeface-mali';
+import 'typeface-lilita-one';
 import App from './App';
 
 ReactDOM.render(

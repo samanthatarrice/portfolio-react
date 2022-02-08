@@ -2915,11 +2915,6 @@ boolbase@^1.0.0, boolbase@~1.0.0:
   resolved "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz#68dff5fbe60c51eb37725ea9e3ed310dcc1e776e"
   integrity sha1-aN/1++YMUes3cl6p4+0xDcwed24=
 
-boostrap@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/boostrap/-/boostrap-2.0.0.tgz#f0a5256bc379c5da540564389e48e85e9ccff9fc"
-  integrity sha512-JEeFMOweKeGXEM9rt95eaVISOkluG9aKcl0jQCETOVH9jynCZxuBZe2oWgcWJpj5wqYWZl625SnW7OgHT2Ineg==
-
 bootstrap@^5.1.3:
   version "5.1.3"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-5.1.3.tgz#ba081b0c130f810fa70900acbc1c6d3c28fa8f34"
@@ -8815,6 +8810,16 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typeface-lilita-one@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-lilita-one/-/typeface-lilita-one-1.1.13.tgz#f3622ea1cbc4f586eeeec13be8993dc2a2db3ea8"
+  integrity sha512-Y0O1hL1l7zhY922XxLQMSimBT6/YxVZNu0bv6Mc40NV6kLHPFwjD/rne0Pu6+Tk7Dp7OpPBOk3R5+2GrmC+1iA==
+
+typeface-mali@^1.1.13:
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/typeface-mali/-/typeface-mali-1.1.13.tgz#12001c516769ce5ca7bf7886cf32fd606869c961"
+  integrity sha512-6oFbiKwLqgznOQd0DmrIPdTdFJlQcyJLSTs4MB/yPbB3ZqVO/TQEnvviNUUoEPNwneKOMa+DebiIQBopmzivgQ==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"

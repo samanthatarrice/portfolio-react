@@ -1,13 +1,217 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  line-height: 1.5;
+  vertical-align: bottom; }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+p,
+a {
+  font-family: "Mali", sans-serif;
+  font-size: 1.75vw; }
+
+h1, h2, h3, h4 {
+  font-family: "Lilita One", cursive;
+  margin-bottom: 2vw; }
+
+h1 {
+  font-size: 7vw;
+  width: 40vw;
+  background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #8082b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+h2 {
+  font-size: 6vw;
+  width: 23vw;
+  margin: 0 auto;
+  background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #8082b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+h3 {
+  font-size: 3vw; }
+
+h4 {
+  font-size: 2.5vw; }
+
+.fab {
+  font-size: 7vw; }
+
+/*--------------------
+        NAVBAR
+--------------------*/
+nav {
+  background-color: rgba(93, 166, 203, 0.75); }
+  nav .container-fluid {
+    font-size: 2vw; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white; }
+
+.navbar-dark .navbar-toggler {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.75); }
+
+.navbar-toggler {
+  border-radius: 50%;
+  aspect-ratio: 1/1; }
+
+/*--------------------
+        HEADER
+--------------------*/
+header {
+  margin: 7vw; }
+
+/*--------------------
+        DIVIDER
+--------------------*/
+.divider {
+  background: linear-gradient(rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5), rgba(93, 166, 203, 0.5), rgba(128, 130, 183, 0.5));
+  width: 100%;
+  aspect-ratio: 8;
+  position: relative;
+  margin: 0; }
+
+.divider img:first-child {
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.divider img:nth-of-type(2n) {
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.top-white-line {
+  width: 100%;
+  height: 1vw;
+  position: absolute;
+  top: -7.25%;
+  background-color: white; }
+
+.bottom-white-line {
+  width: 100%;
+  height: 1vw;
+  position: absolute;
+  bottom: -1.5%;
+  background-color: white; }
+
+.footer-divider {
+  position: relative;
+  height: 13.25vw; }
+
+/*--------------------
+       PORTFOLIO
+--------------------*/
+.accordion-button {
+  font-size: 2.75vw;
+  color: #5da6cb; }
+
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: #fff;
+  box-shadow: none; }
+
+.accordion-button:not(.collapsed), .accordion-button:not(.collapsed):focus {
+  box-shadow: rgba(255, 255, 255, 0) 0px 0px 0px; }
+
+.accordion-button::after {
+  width: 3vw;
+  height: 3vw;
+  background-size: 3vw; }
+
+.accordion-button:not(.collapsed)::after {
+  opacity: 0.75; }
+
+.app-view-container {
+  position: relative; }
+  .app-view-container .monitor {
+    position: relative;
+    z-index: 1; }
+  .app-view-container .app {
+    position: absolute;
+    top: 5.5%;
+    left: 5%;
+    width: 90%; }
+
+/*--------------------
+        ABOUT
+--------------------*/
+.sam-sitting {
+  border: 0.75vw solid #c2e1d0; }
+
+.toolkit-card {
+  background: linear-gradient(45deg, rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); }
+
+.experience-card {
+  background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); }
+
+.education-card {
+  background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5));
+  height: 40vw; }
+
+.fun-facts-card {
+  background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5));
+  height: 40vw; }
+
+.experience-item a {
+  color: black; }
+
+.toolkit-card .fab {
+  font-size: 4.5vw; }
+
+/*--------------------
+        FOOTER
+--------------------*/
+footer {
+  background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); }
+
+@media (max-width: 768px) {
+  body,
+  .experience-item p {
+    font-size: 3.25vw; }
+  a {
+    font-size: 4vw; }
+  h1 {
+    font-size: 12vw;
+    width: 75vw; }
+  h2 {
+    font-size: 9vw;
+    width: 45vw; }
+  .accordion-button {
+    font-size: 5vw; }
+  h4 {
+    font-size: 4vw; }
+  header {
+    margin-top: 15vw; }
+  .card-title {
+    font-size: 5vw; }
+  .education-card,
+  .fun-facts-card {
+    height: 50vw; }
+  .fab {
+    font-size: 15vw; }
+  .toolkit-card .fab {
+    font-size: 8vw; } }
+
+@media (max-width: 576px) {
+  header {
+    margin-top: 27vw; }
+  body,
+  .experience-item p {
+    font-size: 5vw; }
+  a {
+    font-size: 5.5vw; }
+  h1 {
+    font-size: 14vw;
+    width: 80vw; }
+  h2 {
+    font-size: 12vw; }
+  .accordion-button {
+    font-size: 7.5vw; }
+  h4 {
+    font-size: 6vw; }
+  .card-title {
+    font-size: 6.5vw; }
+  .education-card,
+  .fun-facts-card {
+    height: 90vw; } }
