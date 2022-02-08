@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Portfolio extends Component {
+class Contact extends Component {
   render() {
     return (
       <React.Fragment>
-        <p>This is a the Portfolio component.</p>
+        <p>This is the Contact component.</p>
       </React.Fragment>
     );
   }
 }
 
-export default Portfolio; 
+export default Contact;
