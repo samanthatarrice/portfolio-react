@@ -30,8 +30,8 @@ class Header extends Component {
           <div className="container">
             <div className="row">
               <div className="col-md">
-                <h1>Hi! I'm Sam...</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, praesentium neque quas reprehenderit distinctio quia quam, repellat velit ut quo nihil id a beatae dolores voluptas ipsum recusandae ab expedita.</p>
+                <h1>Hi, I'm Sam...</h1>
+                <p>I am a dedicated web developer who truly enjoys building high quality responsive web and mobile apps with a keen attention to detail. As a former educator I understand the importance in always learning and growing, which is evident in my coding journey. I'm available for remote part-time/full-time employment, or freelance work.</p>
               </div>
               <div className="col">
                 <img src="/images/hero.png" alt="Woman sitting at desk working on a laptop." className="w-100" />

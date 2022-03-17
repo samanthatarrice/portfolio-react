@@ -36,13 +36,13 @@ h4 {
   font-size: 2.5vw; }
 
 .fab {
-  font-size: 7vw; }
+  font-size: 5vw; }
 
 /*--------------------
         NAVBAR
 --------------------*/
 nav {
-  background-color: rgba(93, 166, 203, 0.75); }
+  background-color: rgb(105, 184, 223); }
   nav .container-fluid {
     font-size: 2vw; }
 
@@ -132,13 +132,12 @@ header {
     z-index: 1; }
   .app-view-container .app {
     position: absolute;
-    top: 5.5%;
+    top: 5.25%;
     left: 5%;
     width: 90%; }
 
 .portfolio-fa {
-  width: 20%;
-  height: 20%;
+  font-size: 10vw;
 }
 
 .portfolio-fa:hover {
@@ -161,11 +160,14 @@ header {
 
 .education-card {
   background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5));
-  height: 40vw; }
+  height: 28vw; }
 
 .fun-facts-card {
   background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5));
-  height: 40vw; }
+  height: 28vw; }
+
+.resume-card {
+  background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5)); }
 
 .experience-item a {
   color: black; }
@@ -236,3 +238,6 @@ footer {
   .education-card,
   .fun-facts-card {
     height: 90vw; } }
+
+
+    /* cornflower blue: rgba(126,169,234,255) */
