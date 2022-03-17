@@ -3,12 +3,22 @@
   line-height: 1.5;
   vertical-align: bottom; }
 
+a {
+  color: black; 
+  font-family: "Mali", sans-serif;}
+
+a:hover {
+  color: #5da6cb }
+
 p,
-a,
 li {
   font-family: "Mali", sans-serif;
-  font-size: 1.75vw; 
+  font-size: 1.2rem; 
   color: black; }
+
+li {
+  font-size: 1.5rem;
+}
 
 h1, h2, h3, h4 {
   font-family: "Lilita One", cursive;
@@ -156,24 +166,35 @@ header {
   background: linear-gradient(45deg, rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); }
 
 .experience-card {
-  background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); }
+  background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); 
+  padding: 0 9vw; }
 
 .education-card {
-  background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5));
-  height: 28vw; }
+  background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), #5da6cb80, rgba(228, 161, 194, 0.5));
+  /* height: 28vw;  */
+  }
 
 .fun-facts-card {
   background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5));
-  height: 28vw; }
+  /* height: 28vw;  */
+}
 
 .resume-card {
   background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5)); }
 
+.toolkit-card .fab {
+  font-size: 4.5vw; }
+
 .experience-item a {
   color: black; }
 
-.toolkit-card .fab {
-  font-size: 4.5vw; }
+.education-dates {
+  font-size: 0.75rem;
+  text-transform: uppercase; }
+
+.education-item {
+  list-style-position:inside;
+}
 
 /*--------------------
         FOOTER
@@ -190,7 +211,7 @@ footer {
   p,
   .experience-item p,
   li {
-    font-size: 3.25vw; }
+    font-size: 2.5vw; }
   a {
     font-size: 4vw; }
   h1 {
@@ -207,9 +228,11 @@ footer {
     margin-top: 15vw; }
   .card-title {
     font-size: 5vw; }
-  .education-card,
+  .experience-card {
+    padding: 0 2vw; }
+  /* .education-card,
   .fun-facts-card {
-    height: 50vw; }
+    height: 50vw; } */
   .fab {
     font-size: 15vw; }
   .toolkit-card .fab {
@@ -221,9 +244,9 @@ footer {
   p,
   .experience-item p,
   li {
-    font-size: 5vw; }
+    font-size: 3vw; }
   a {
-    font-size: 5.5vw; }
+    font-size: 3vw; }
   h1 {
     font-size: 14vw;
     width: 80vw; }
