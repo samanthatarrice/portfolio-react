@@ -78,7 +78,7 @@ class About extends Component {
                     <div className="w-75 m-auto">
                       <div style={{position: "relative", width: "100%", height: 0, paddingTop: "129.4118%",
                         paddingBottom: 48, marginTop:20, marginBottom:15, overflow: "hidden", borderRadius: 8, willChange: 'transform'}}>
-                        <iframe loading="lazy" style={{position: "absolute",width: "100%",height: "100%",top: 0, left: 0,border: "none",padding: 0,margin: 0}} src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE7Pyirwg4&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+                        <iframe loading="lazy" style={{position: "absolute",width: "100%",height: "100%",top: 0, left: 0,border: "none",padding: 0,margin: 0}} src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE7Pyirwg4&#x2F;view?embed" allowFullScreen="allowFullScreen" allow="fullscreen"></iframe>
                       </div>
                       <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE7Pyirwg4&#x2F;view?utm_content=DAE7Pyirwg4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
                     </div>
