@@ -18,7 +18,7 @@ class Portfolio extends Component {
                   <div className="row d-flex align-items-center">
                     <div className="app-view-container col-md-6 me-2-sm pb-4 pb-md-0">
                       <div className="d-flex justify-content-center" >
-                        <img src="/images/mobile-black.png" alt="Mobile phone outline." className="mobile-phone"/>
+                        <img src="images/mobile-black.png" alt="Mobile phone outline." className="mobile-phone"/>
                         <div className="app-video-container">
                           <video className="app-video" src="images/Mono_Log-video.mp4" muted autoPlay loop>
                             Your browser does not support the video tag.
@@ -50,7 +50,7 @@ class Portfolio extends Component {
                   <div className="row d-flex flex-row-reverse">
                     <div className="app-view-container col-md-6 me-2-sm pb-4 pb-md-0">
                       <a href="https://samanthatarrice.github.io/travel-journal/" target="_blank" >
-                        <img src="/images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
+                        <img src="images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
                         <img src="images/travel-blog.png" alt="View of Travel Blog" className="app" />
                       </a>
                     </div>
@@ -78,8 +78,8 @@ class Portfolio extends Component {
                   <div className="row d-flex align-items-center">
                     <div className="app-view-container col-md-6 me-2-sm pb-4 pb-md-0">
                       <a href="https://bobs-search-n-paint.netlify.app/" target="_blank" >
-                        <img src="/images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
-                        <img src="/images/bob-monitor.png" alt="Bob Ross' Search & Paint desktop view." className="app" />
+                        <img src="images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
+                        <img src="images/bob-monitor.png" alt="Bob Ross' Search & Paint desktop view." className="app" />
                       </a>
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
@@ -106,8 +106,8 @@ class Portfolio extends Component {
                   <div className="row d-flex flex-row-reverse">
                     <div className="app-view-container col-md-6 me-2-sm pb-4 pb-md-0">
                       <a href="https://www.sean-tarrice.com/" target="_blank" >
-                        <img src="/images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
-                        <img src="/images/sean-monitor.png" alt="Sean's portfolio desktop view." className="app" />
+                        <img src="images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
+                        <img src="images/sean-monitor.png" alt="Sean's portfolio desktop view." className="app" />
                       </a>
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
@@ -134,8 +134,8 @@ class Portfolio extends Component {
                   <div className="row">
                     <div className="app-view-container col-md-6 me-2-sm pb-4 pb-md-0">
                       <a href="https://samanthatarrice.github.io/stickies_notes_app/" target="_blank">
-                        <img src="/images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
-                        <img src="/images/stickies-monitor.png" alt="Stickies app desktop view." className="app" />
+                        <img src="images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
+                        <img src="images/stickies-monitor.png" alt="Stickies app desktop view." className="app" />
                       </a>
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
@@ -162,8 +162,8 @@ class Portfolio extends Component {
                   <div className="row d-flex flex-row-reverse">
                     <div className="app-view-container col-md-6 me-2-sm pb-4 pb-md-0">
                       <a href="https://samanthatarrice.github.io/bmos_matching_game/" target="_blank">
-                        <img src="/images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
-                        <img src="/images/bmo-monitor.png" alt="BMO's Matching Game desktop view." className="app" />
+                        <img src="images/monitor-black.png" alt="Black and white computer monitor." className="monitor w-100" />
+                        <img src="images/bmo-monitor.png" alt="BMO's Matching Game desktop view." className="app" />
                       </a>
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
