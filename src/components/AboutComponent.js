@@ -17,7 +17,7 @@ class About extends Component {
                 </div>
               </div>
               <div className="col-7 col-md-4 text-center mx-md-5 mb-4 mb-md-0">
-                <img src="/images/profile-side.jpg" alt="Sam's profile pic." className="sam-sitting w-100 rounded-circle"/>
+                <img src="images/profile-side.jpg" alt="Sam's profile pic." className="sam-sitting w-100 rounded-circle"/>
               </div>
             </div>
             <div className="row my-2 my-sm-4 my-md-5">

@@ -33,7 +33,7 @@ class Portfolio extends Component {
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
-                          <a className="fs-5" href="https://github.com/samanthatarrice/mono_log-journal-app" target="_blank">Github repo</a>
+                          <a className="github-link" href="https://github.com/samanthatarrice/mono_log-journal-app" target="_blank">Github repo</a>
                         </div>
                       </div>
                     </div>
@@ -60,7 +60,7 @@ class Portfolio extends Component {
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
-                          <a className="fs-5" href="https://github.com/samanthatarrice/travel-journal" target="_blank">Github repo</a>
+                          <a className="github-link" href="https://github.com/samanthatarrice/travel-journal" target="_blank">Github repo</a>
                         </div>
                         <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://samanthatarrice.github.io/travel-journal/" target="_blank">Live Site</a></button>
                       </div>
@@ -88,7 +88,7 @@ class Portfolio extends Component {
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
-                          <a className="fs-5" href="https://github.com/samanthatarrice/bobs_search_and_paint" target="_blank">Github repo</a>
+                          <a className="github-link" href="https://github.com/samanthatarrice/bobs_search_and_paint" target="_blank">Github repo</a>
                         </div>
                         <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://bobs-search-n-paint.netlify.app/" target="_blank">Live Site</a></button>
                       </div>
@@ -116,7 +116,7 @@ class Portfolio extends Component {
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
-                          <a className="fs-5" href="https://github.com/samanthatarrice/seans_portfolio" target="_blank">Github repo</a>
+                          <a className="github-link" href="https://github.com/samanthatarrice/seans_portfolio" target="_blank">Github repo</a>
                         </div>
                         <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://www.sean-tarrice.com/" target="_blank">Live Site</a></button>
                       </div>
@@ -144,7 +144,7 @@ class Portfolio extends Component {
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
-                          <a className="fs-5" href="https://github.com/samanthatarrice/stickies_notes_app/" target="_blank">Github repo</a>
+                          <a className="github-link" href="https://github.com/samanthatarrice/stickies_notes_app/" target="_blank">Github repo</a>
                         </div>
                         <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://samanthatarrice.github.io/stickies_notes_app/" target="_blank">Live Site</a></button>
                       </div>
@@ -172,7 +172,7 @@ class Portfolio extends Component {
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
-                          <a className="fs-5" href="https://github.com/samanthatarrice/bmos_matching_game/" target="_blank">Github repo</a>
+                          <a className="github-link" href="https://github.com/samanthatarrice/bmos_matching_game/" target="_blank">Github repo</a>
                         </div>
                         <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://samanthatarrice.github.io/bmos_matching_game/" target="_blank">Live Site</a></button>
                       </div>

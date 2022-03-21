@@ -34,7 +34,7 @@ class Header extends Component {
                 <p>I am a dedicated developer who truly enjoys building high quality responsive web and mobile apps with keen attention to detail. As a former educator I understand the importance of always learning and working in a team. I'm available for remote part-time/full-time employment, or freelance work.</p>
               </div>
               <div className="col">
-                <img src="/images/hero.png" alt="Woman sitting at desk working on a laptop." className="w-100" />
+                <img src="images/hero.png" alt="Woman sitting at desk working on a laptop." className="w-100" />
               </div>
             </div>
           </div>

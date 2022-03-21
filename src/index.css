@@ -173,13 +173,15 @@ header {
 
 .live-site-btn {
   border-radius: 30px;
+  width: 15vw;
+  max-width: 200px;
   padding: 8px 25px;
   background: #5da6cb;
   font-family: "Mali", sans-serif;
   color: white; }
   .live-site-btn a {
     text-decoration: none;
-    vertical-align: top; }
+    vertical-align: baseline; }
   .live-site-btn a:hover {
     color: white;
   }
@@ -246,6 +248,8 @@ footer {
   .app-view-container .mobile-phone {
     width: 51.5%;
     height: 51.5%; }
+  .live-site-btn {
+    width: 20vw; }
 }
 
 
@@ -293,6 +297,13 @@ footer {
     font-size: 12vw; }
   .accordion-button {
     font-size: 7.5vw; }
+  .github-link {
+    font-size: 12px;
+  }
+  .live-site-btn {
+    width: 35vw  }
+    .live-site-btn a {
+      font-size: 4vw; }
   h4 {
     font-size: 6vw; }
   .card-title {

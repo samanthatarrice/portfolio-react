@@ -32,7 +32,7 @@ function Contact() {
       <div className="container">
         <div className="row d-flex align-items-center my-5">
           <div className="col-12 col-md-6 text-center">
-            <img src="/images/contact.png" alt="Clipart of various contact method symbols" className="w-75 mb-md-0 mb-5" />
+            <img src="images/contact.png" alt="Clipart of various contact method symbols" className="w-75 mb-md-0 mb-5" />
           </div>
           <div className="col-10 col-md-5 mx-auto form-row">
             <form onSubmit={handleContactFormSubmit} ref={form} className="mx-auto">
