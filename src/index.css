@@ -16,10 +16,6 @@ li {
   font-size: 1.2rem; 
   color: black; }
 
-li {
-  font-size: 1.5rem;
-}
-
 h1, h2, h3, h4 {
   font-family: "Lilita One", cursive;
   margin-bottom: 2vw; }
@@ -29,6 +25,7 @@ h1 {
   width: 40vw;
   background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #5da6cb);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 h2 {
@@ -37,6 +34,7 @@ h2 {
   margin: 0 auto;
   background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #5da6cb);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 h3 {
@@ -137,7 +135,8 @@ header {
 
 .app-view-container {
   position: relative; }
-  .app-view-container .monitor {
+  .app-view-container .monitor,
+  .app-view-container .mobile-phone {
     position: relative;
     z-index: 1; }
   .app-view-container .app {
@@ -145,16 +144,47 @@ header {
     top: 5.25%;
     left: 5%;
     width: 90%; }
+  .app-view-container .mobile-phone {
+    width: 100%;
+    height: auto;
+  }
+  .app-view-container .app-video-container {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    right: 22.5%;
+  }
+  .app-view-container .app-video {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    padding: 1.25vw;
+    z-index: 2;
+  }
+
 
 .portfolio-fa {
-  font-size: 10vw;
-}
+  font-size: 10vw; }
 
 .portfolio-fa:hover {
   background: -webkit-linear-gradient(45deg, #8082b7, #e4a1c2, #c2e1d0, #8082b7);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+  background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.live-site-btn {
+  border-radius: 30px;
+  padding: 8px 25px;
+  background: #5da6cb;
+  font-family: "Mali", sans-serif;
+  color: white; }
+  .live-site-btn a {
+    text-decoration: none;
+    vertical-align: top; }
+  .live-site-btn a:hover {
+    color: white;
+  }
 
 /*--------------------
         ABOUT
@@ -167,17 +197,13 @@ header {
 
 .experience-card {
   background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); 
-  padding: 0 9vw; }
+  padding: 0 10vw 0 7vw; }
 
 .education-card {
-  background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), #5da6cb80, rgba(228, 161, 194, 0.5));
-  /* height: 28vw;  */
-  }
+  background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), #5da6cb80, rgba(228, 161, 194, 0.5)); }
 
 .fun-facts-card {
-  background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5));
-  /* height: 28vw;  */
-}
+  background: linear-gradient(45deg, rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5)); }
 
 .resume-card {
   background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(228, 161, 194, 0.5)); }
@@ -197,8 +223,20 @@ header {
 }
 
 /*--------------------
+        CONTACT
+--------------------*/
+
+.contact-btn {
+  border-radius: 30px;
+  padding: 8px 25px;
+  background: #5da6cb;
+  font-family: "Mali", sans-serif;
+  color: white; }
+
+/*--------------------
         FOOTER
 --------------------*/
+
 footer {
   background: linear-gradient(45deg, rgba(128, 130, 183, 0.5), rgba(93, 166, 203, 0.5), rgba(228, 161, 194, 0.5), rgba(194, 225, 208, 0.5)); }
 
@@ -211,9 +249,9 @@ footer {
   p,
   .experience-item p,
   li {
-    font-size: 2.5vw; }
+    font-size: 2.25vw; }
   a {
-    font-size: 4vw; }
+    font-size: 2.5vw; }
   h1 {
     font-size: 12vw;
     width: 75vw; }

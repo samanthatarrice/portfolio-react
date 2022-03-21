@@ -21,36 +21,28 @@ class About extends Component {
               </div>
             </div>
             <div className="row my-2 my-sm-4 my-md-5">
-              {/* <div className='col-4 d-xl-block d-none align-self-center'>
-                <img className="w-100" src="/images/hug.gif"/>
-                Illustration by <a href="https://icons8.com/illustrations/author/TQQ1qAnr9rn5">Oleg Shcherba</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
-                <img className="w-100" src="/images/travel.png"/>
-                Illustration by <a href="https://icons8.com/illustrations/author/N3YOxdn12Kox">Marina Mogulska</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
-                <img className="w-100" src="/images/abstract-sign-in.gif"/>
-                Illustration by <a href="https://icons8.com/illustrations/author/TQQ1qAnr9rn5">Oleg Shcherba</a> from <a href="https://icons8.com/illustrations">Ouch!</a>
-              </div> */}
               <div className="col">
                 <div className="card experience-card border-0">
                   <div className="card-body p-4 p-md-5">
-                    <h3 className="card-title text-center">Professional Experience</h3>
+                    <h3 className="card-title text-center pb-3">Professional Experience</h3>
                     <ul className="experience-item card-text my-3 ps-3 ps-md-5">
-                      <li>Aug 2017-June 2021: <span className="text-uppercase">First Grade Teacher</span> @ <a href="https://pasb.com.br/en/">Pan American School of Bahia (PASB)</a></li>
+                      <li className='fw-bold'>Aug 2017-June 2021: <span className="text-uppercase">First Grade Teacher</span> @ <a href="https://pasb.com.br/en/">Pan American School of Bahia (PASB)</a></li>
                       <p>My husband and I moved to Salvador, Bahia, Brazil to teach at PASB. While I finished my ten year career as a teacher here, I am so grateful to this school for the opportunties I gained. As a teacher I was responsible for teaching all subjects to a bilingual class. I developed curriculum on a daily basis on my own and with my team, and always sought out new and engaging ways to enhance my lessons. I integrated using technology wherever possible, especially during the pandemic when I spent the majority of my last year teaching online using tools such as Google apps and other various educational programs. I also helped with introducing educational robots with younger grade levels and training teachers on how to integrate them into their lessons.</p>
                     </ul>
                     <ul className="experience-item card-text my-3 ps-3 ps-md-5">
-                      <li>Sept 2015-June 2017: <span className="text-uppercase">Third Grade Teacher</span> @ <a href="https://www.st-andrews.org/" target="_blank">Saint Andrew's School</a></li>
+                      <li className='fw-bold'>Sept 2015-June 2017: <span className="text-uppercase">Third Grade Teacher</span> @ <a href="https://www.st-andrews.org/" target="_blank">Saint Andrew's School</a></li>
                       <p>I gained my first experience as a classroom teacher at Saint Andrew's. Here I developed my skills as a teacher by attending mutliple professional development workshops and conventions in order to learn best teaching practices. I also led an afterschool Minecraft club.</p>
                     </ul>
                     <ul className="experience-item card-text my-3 ps-3 ps-md-5">
-                      <li>Aug 2012-Sept 2015: <span className="text-uppercase">Media Specialist</span> @ <a href="https://www.st-andrews.org/" target="_blank">Saint Andrew's School</a></li>
+                      <li className='fw-bold'>Aug 2012-Sept 2015: <span className="text-uppercase">Media Specialist</span> @ <a href="https://www.st-andrews.org/" target="_blank">Saint Andrew's School</a></li>
                       <p>As an elementary school Media Specialist I was responsible for managing the library and teaching weekly courses to all grade levels. In addition, I taught weekly technology lessons which I developed in collaboration with each grade level.</p>
                     </ul>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="row my-2">
-              <div className="col-12 col-md-6">
+            <div className="row my-lg-2 my-0">
+              <div className="col-12 col-lg-6">
                 <div className="education-card card border-0 h-100">
                   <div className="card-body p-4 p-md-5">
                     <h3 className="card-title text-center">Education</h3>
@@ -79,14 +71,18 @@ class About extends Component {
                   </div>
                 </div>
               </div>
-              <div className="col-12 col-md-6">
-                <div className="fun-facts-card card border-0  h-100">
+              <div className="col-12 col-lg-6 my-sm-4 my-2 my-lg-0">
+                <div className="fun-facts-card card border-0 h-100">
                   <div className="card-body p-4 p-md-5">
                     <h3 className="card-title text-center">Resume</h3>
-                    <div className="d-flex justify-content-center align-items-center">
-                      <i className="fas fa-file-user fs-1" />
-                      <a href="#" className="mb-0 ps-3 fs-4">Link to my resume</a>   
+                    <div className="w-75 m-auto">
+                      <div style={{position: "relative", width: "100%", height: 0, paddingTop: "129.4118%",
+                        paddingBottom: 48, marginTop:20, marginBottom:15, overflow: "hidden", borderRadius: 8, willChange: 'transform'}}>
+                        <iframe loading="lazy" style={{position: "absolute",width: "100%",height: "100%",top: 0, left: 0,border: "none",padding: 0,margin: 0}} src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE7Pyirwg4&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen"></iframe>
+                      </div>
+                      <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE7Pyirwg4&#x2F;view?utm_content=DAE7Pyirwg4&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener"></a>
                     </div>
+                    
                   </div>
                 </div>
               </div>
