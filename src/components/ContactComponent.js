@@ -43,6 +43,7 @@ function Contact() {
                   className="form-control" 
                   id="contactName"
                   name="contactName"
+                  required
               />
               </div>
               <div className="mb-3 form-group">
@@ -52,6 +53,7 @@ function Contact() {
                   className="form-control" 
                   id="contactEmail" 
                   name="contactEmail"
+                  required
               />
               </div>
               <div className="mb-3 form-gorup">
@@ -61,6 +63,7 @@ function Contact() {
                   className="form-control" 
                   rows="10"
                   name="contactMessage"
+                  required
                 />
               </div>
               <button className="btn contact-btn d-block m-auto mt-4" type="submit">Contact Me!</button>
@@ -71,9 +74,11 @@ function Contact() {
     </section>
     <Modal show={showContactModal} onHide={handleCloseContactModal}>
         <Modal.Header closeButton>
-          <Modal.Title>Thanks for contacing me!</Modal.Title>
+          <Modal.Title>Thanks for contacting me!</Modal.Title>
         </Modal.Header>
-        <Modal.Body>I look forward to recieving your message. You can expect a message back from me soon.</Modal.Body>
+        <Modal.Body>
+          I look forward to recieving your message. You can expect a message back from me soon.
+        </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleCloseContactModal}>
             Close
