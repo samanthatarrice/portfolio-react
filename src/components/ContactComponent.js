@@ -80,9 +80,10 @@ function Contact() {
           </Button>
         </Modal.Footer>
       </Modal>
-    
   </React.Fragment>
   );
 }
 
 export default Contact;
+
+//Form Setup from: https://dev.to/abdulwaqar844/how-to-send-emails-from-a-react-application-without-a-backendserver-29j8

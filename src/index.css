@@ -3,7 +3,7 @@
   line-height: 1.5;
   vertical-align: bottom; }
 
-a {
+a, label {
   color: black; 
   font-family: "Mali", sans-serif;}
 
@@ -145,23 +145,21 @@ header {
     left: 5%;
     width: 90%; }
   .app-view-container .mobile-phone {
-    width: 100%;
-    height: auto;
-  }
+    width: 51%;
+    height: 51%;
+    z-index: 3; }
   .app-view-container .app-video-container {
-    width: 100%;
+    top: 1%;
+    width: 45%;
     height: auto;
-    position: absolute;
-    top: 2%;
-    right: 22.5%;
-  }
+    padding: 0;
+    position: absolute; }
   .app-view-container .app-video {
     position: absolute;
-    width: 90%;
+    width: 100%;
     height: auto;
-    padding: 1.25vw;
-    z-index: 2;
-  }
+    border-radius: 20px; }
+  
 
 
 .portfolio-fa {
@@ -244,6 +242,12 @@ footer {
   color: #5da6cb;
 }
 
+@media (max-width: 992px) {
+  .app-view-container .mobile-phone {
+    width: 51.5%;
+    height: 51.5%; }
+}
+
 
 @media (max-width: 768px) {
   p,
@@ -268,9 +272,6 @@ footer {
     font-size: 5vw; }
   .experience-card {
     padding: 0 2vw; }
-  /* .education-card,
-  .fun-facts-card {
-    height: 50vw; } */
   .fab {
     font-size: 15vw; }
   .toolkit-card .fab {

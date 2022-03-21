@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
+
 class Portfolio extends Component {
+
   render() {
     return (
       <React.Fragment>
@@ -16,19 +18,18 @@ class Portfolio extends Component {
                   <div className="row d-flex align-items-center">
                     <div className="app-view-container col-md-6 me-2-sm pb-4 pb-md-0">
                       <div className="d-flex justify-content-center" >
-                        <img src="/images/mobile-black.png" alt="Mobile phone outline." className="mobile-phone w-50"/>
-                        <div className="app-video-container w-50">
-                          <video className="app-video" controls>
-                            <source src="images/Mono_Log-video.mp4" type="video/mp4" />
-                            <source src="images/Mono_Log-vide.ogg" type="video/ogg" />
+                        <img src="/images/mobile-black.png" alt="Mobile phone outline." className="mobile-phone"/>
+                        <div className="app-video-container">
+                          <video className="app-video" src="images/Mono_Log-video.mp4" muted autoPlay loop>
                             Your browser does not support the video tag.
                           </video>
                         </div>
+                        
                       </div>
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
                       <h4 className="text-center">Mono-Log Journal App</h4>
-                      <p>I am currently working on this final project to showcase all I have learned in NuCamp's Full Stack Bootcamp. I created the wireframe using Figma, and set up the React Native app using Expo. For navigation I used React Navigation, and for the elements I am using some of React's preset elements as well as some elements from React-Native-Elements. So far, the user can log journal entries to another page which shows all the journal entries. They can also log their mood and upload images from their gallery. I plan to implement more features, such as a calendar that keeps track of the days they logged an entry and shows data trends about their mood. I also plan on adding the ability for a user to log on to the app when I learn more about backend programming.</p>
+                      <p>I am currently working on this final project to showcase all I have learned in NuCamp's Full Stack Bootcamp. I created the wireframe using Figma, and set up the React Native app using Expo. I set up navigation with React-Navigation, and used other elements from other packages such as React-Native-Elements and React-Native-Calendars. So far, the user can log journal entries to another page which shows all the journal entries. They can also log their mood and upload images from their gallery. I plan to implement more features, such as a calendar that keeps track of the days they logged an entry and shows data trends about their mood. I also plan on adding the ability for a user to log on to the app when I learn more about backend programming.</p>
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
@@ -55,7 +56,7 @@ class Portfolio extends Component {
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
                       <h4 className="text-center">My Travel Blog</h4>
-                      <p>This is a solo project I worked on after learning more about passing props in React. I mapped over the data I included as a data.js file to display the properties for each experience. Although I still have yet to learn about importing data from APIs, this was good practice working with the data and passing to components.</p>
+                      <p>This is a solo project I worked on after learning more about passing props in React. I mapped over the data I included as a data.js file to display the properties for each experience. Although I still have yet to learn about importing data from APIs, this was good practice working with data and passing to components.</p>
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
@@ -83,7 +84,7 @@ class Portfolio extends Component {
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
                       <h4 className="text-center">Bob Ross' Search & Paint</h4>
-                      <p>This was my first Hackathon where I completed a solo project for a Mintbean Hackathon. The challenge was to create an app where a user could draw on the screen. At this time, I only knew foundational web development, so I used what I knew about HTML, CSS and JavaScript to create an app that fullfilled the requirements as well as adding more creative features. I was one of only 5% of developers who participated in this hackathon to recieve a <a href="https://hire.mintbean.io/">Mintbean Star</a>. The idea was also inspired by a game I was working on for my three year old daughter where the user has to find items on the screen in order to play a game or watch a video. Learn more about it on my project's <a href="https://bob-landing.netlify.app/" target="_blank">landing page</a>. </p>
+                      <p>This was my first Hackathon where I completed a solo project for a Mintbean Hackathon. The challenge was to create an app where a user could draw on the screen. At this time, I only knew foundational web development, so I used what I knew about HTML, CSS and JavaScript to create an app that did more than fulfill the requirements by adding more creative features. I was one of only 5% of developers who participated in this hackathon to receive a <a href="https://hire.mintbean.io/">Mintbean Star</a>. The idea was also inspired by a game I was working on for my three year old daughter where the user has to find items on the screen in order to play a game or watch a video. Learn more about it on my project's <a href="https://bob-landing.netlify.app/" target="_blank">landing page</a>. </p>
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />
@@ -139,7 +140,7 @@ class Portfolio extends Component {
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
                       <h4 className="text-center">Stickies</h4>
-                      <p>I created this app to practice using jQuery to manipulate the DOM. Once I've learned more about programming the backend, I plan to add a way for a user to log in so the data persists in their account. You cand find more practice projects such as these on my Github page, such as a simple <a href="https://github.com/samanthatarrice/expense_app" target="_blank">Expense App</a> and a simple <a href="https://github.com/samanthatarrice/simple_to_do" target="_blank">To Do List app</a>, which was the first JS project I completed independent of any tutorials.</p>
+                      <p>I created this app to practice using jQuery to manipulate the DOM. Once I've learned more about programming the backend, I plan to add a way for a user to log in so the data persists in their account. You can find more practice projects such as these on my Github page, such as a simple <a href="https://github.com/samanthatarrice/expense_app" target="_blank">Expense App</a> and a simple <a href="https://github.com/samanthatarrice/simple_to_do" target="_blank">To Do List app</a>, which was the first JS project I completed independent of any tutorials.</p>
                       <div className="project-links d-flex align-items-center justify-content-center my-4 my-lg-5">
                         <div className="d-flex align-items-center me-5">
                           <i className="fab fa-github fs-1 me-2" />

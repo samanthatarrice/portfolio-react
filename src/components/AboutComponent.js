@@ -27,15 +27,15 @@ class About extends Component {
                     <h3 className="card-title text-center pb-3">Professional Experience</h3>
                     <ul className="experience-item card-text my-3 ps-3 ps-md-5">
                       <li className='fw-bold'>Aug 2017-June 2021: <span className="text-uppercase">First Grade Teacher</span> @ <a href="https://pasb.com.br/en/">Pan American School of Bahia (PASB)</a></li>
-                      <p>My husband and I moved to Salvador, Bahia, Brazil to teach at PASB. While I finished my ten year career as a teacher here, I am so grateful to this school for the opportunties I gained. As a teacher I was responsible for teaching all subjects to a bilingual class. I developed curriculum on a daily basis on my own and with my team, and always sought out new and engaging ways to enhance my lessons. I integrated using technology wherever possible, especially during the pandemic when I spent the majority of my last year teaching online using tools such as Google apps and other various educational programs. I also helped with introducing educational robots with younger grade levels and training teachers on how to integrate them into their lessons.</p>
+                      <p>My husband and I moved to Salvador, Bahia, Brazil to teach at PASB. While I finished my ten year career as a teacher here, I am so grateful to this school for the opportunities I gained. As a teacher I was responsible for teaching all subjects to a bilingual class. I developed curriculum on a daily basis on my own and with my team, and always sought out new and engaging ways to enhance my lessons. I integrated using technology wherever possible, especially during the pandemic when I spent the majority of my last year teaching online using tools such as Google apps and other various educational programs. I also helped with introducing educational robots with younger grade levels and training teachers on how to integrate them into their lessons. Being a team player and always striving to improve my skills are mindsets that help me grow as a developer as well.</p>
                     </ul>
                     <ul className="experience-item card-text my-3 ps-3 ps-md-5">
                       <li className='fw-bold'>Sept 2015-June 2017: <span className="text-uppercase">Third Grade Teacher</span> @ <a href="https://www.st-andrews.org/" target="_blank">Saint Andrew's School</a></li>
-                      <p>I gained my first experience as a classroom teacher at Saint Andrew's. Here I developed my skills as a teacher by attending mutliple professional development workshops and conventions in order to learn best teaching practices. I also led an afterschool Minecraft club.</p>
+                      <p>I gained my first experiences as a classroom teacher at Saint Andrew's. Here I developed my skills as a teacher by attending multiple professional development workshops and conventions in order to learn best teaching practices. I also led an after school Minecraft club.</p>
                     </ul>
                     <ul className="experience-item card-text my-3 ps-3 ps-md-5">
                       <li className='fw-bold'>Aug 2012-Sept 2015: <span className="text-uppercase">Media Specialist</span> @ <a href="https://www.st-andrews.org/" target="_blank">Saint Andrew's School</a></li>
-                      <p>As an elementary school Media Specialist I was responsible for managing the library and teaching weekly courses to all grade levels. In addition, I taught weekly technology lessons which I developed in collaboration with each grade level.</p>
+                      <p>As an elementary school Media Specialist I was responsible for managing the library and teaching weekly courses to all grade levels. In addition, I taught weekly technology lessons which I developed curriculum for based on ISTE (International Standards for Technology in Education) in collaboration with each grade level.</p>
                     </ul>
                   </div>
                 </div>
@@ -49,13 +49,13 @@ class About extends Component {
                     <ul className="card-text my-3">
                       <li>
                         <p className="mb-0">NuCamp Bootcamp</p>
-                        <p className="education-dates mb-0">to be completed in April 2022</p>
-                        <p className="">Full Stack (MERN) Web and Mobile App development</p>
+                        <p className="education-dates mb-0">To be completed on April 23 2022</p>
+                        <p className="">Full Stack (MERN) Web & Mobile App Development</p>
                       </li>
                       <li>
                         <p className="mb-0">NuCamp Bootcamp</p>
-                        <p className="education-dates mb-0">Nov 2021</p>
-                        <p className="">Web Development Fundamentals</p>
+                        <p className="education-dates mb-0">March 2022</p>
+                        <p className="">Front End Web & Mobile App Development</p>
                       </li>
                       <li>
                         <p className="mb-0">San Jose State University</p>

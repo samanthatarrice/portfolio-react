@@ -31,7 +31,7 @@ class Header extends Component {
             <div className="row">
               <div className="col-md">
                 <h1>Hi, I'm Sam...</h1>
-                <p>I am a dedicated developer who truly enjoys building high quality responsive web and mobile apps with keen attention to detail. As a former educator I understand the importance in always learning and growing, which is evident in my coding journey. I'm available for remote part-time/full-time employment, or freelance work.</p>
+                <p>I am a dedicated developer who truly enjoys building high quality responsive web and mobile apps with keen attention to detail. As a former educator I understand the importance of always learning and working in a team. I'm available for remote part-time/full-time employment, or freelance work.</p>
               </div>
               <div className="col">
                 <img src="/images/hero.png" alt="Woman sitting at desk working on a laptop." className="w-100" />
