@@ -23,7 +23,10 @@ class About extends Component {
             <div className="row my-2 my-sm-4 my-md-5">
               <div className="col">
                 <div className="card experience-card border-0">
-                  <div className="card-body p-4 p-md-5">
+                  <div className="card-body p-1 p-md-5">
+                    <h3 className="card-title text-center pt-4">My Story</h3>
+                    <p className="p-4 ms-md-4">Last year I decided to leave my career as a teacher for ten years to pursue coding. I have always been interested in technology. As a kid, I remember my parents bringing home some magazines that taught how to program card games on MS-DOS (yes, I’m aging myself). I remember making those card games and loved the feeling of being able to actually see something I created come to life on the screen. Since then, I’ve found that I’ve always gravitated towards tech in other areas of my life, even before I started really learning a coding language. As a studio art student at SFSU, I was able to explore this passion to create more and took courses in the Computer Integrated Arts department. We learned how to use technology as just another tool to create art, in particular how to create animations and websites and use the Adobe Creative Suite. As a teacher, one of my first positions was as a Media Specialist. My job was to run the library and teach library studies, and as the media specialist I also taught tech lessons to younger students. This gave me the chance to learn about the world of Educational Technology. I designed the curriculum based on the ISTE (International Standards for Technology in Education) and was able to find fun and engaging ways to include technology in my lessons in a way that enhanced student learning. Along the way I collaborated with and trained my colleagues. Last year, when the pandemic made us all teach from home, while most teachers were lamenting having to teach on a computer, it thrilled me to be able to find and create fun technology to teach online. Since I have left teaching I have dedicated myself to learning web and app development full time through online resources and books, the bootcamp I completed, hackathons, and projects. As a former teacher, I know the value in always learning, and look forward to always striving to learn more as a software developer.</p>
+                    {/* Took this out. Not enough about tech:
                     <h3 className="card-title text-center pb-3">Professional Experience</h3>
                     <ul className="experience-item card-text my-3 ps-3 ps-md-5">
                       <li className='fw-bold'>Aug 2017-June 2021: <span className="text-uppercase">First Grade Teacher</span> @ <a href="https://pasb.com.br/en/">Pan American School of Bahia (PASB)</a></li>
@@ -36,7 +39,7 @@ class About extends Component {
                     <ul className="experience-item card-text my-3 ps-3 ps-md-5">
                       <li className='fw-bold'>Aug 2012-Sept 2015: <span className="text-uppercase">Media Specialist</span> @ <a href="https://www.st-andrews.org/" target="_blank">Saint Andrew's School</a></li>
                       <p>As an elementary school Media Specialist I was responsible for managing the library and teaching weekly courses to all grade levels. In addition, I taught weekly technology lessons which I developed curriculum for based on ISTE (International Standards for Technology in Education) in collaboration with each grade level.</p>
-                    </ul>
+                    </ul> */}
                   </div>
                 </div>
               </div>
@@ -59,12 +62,10 @@ class About extends Component {
                       </li>
                       <li>
                         <p className="mb-0">San Jose State University</p>
-                        <p className="education-dates mb-0">June 2011</p>
                         <p className="">K-8 Mutliple Subject Teaching Credential</p>
                       </li>
                       <li>
                         <p className="mb-0">San Francisco State University</p>
-                        <p className="education-dates mb-0">June 2009</p>
                         <p className="">Bachelor of Arts in Art Education</p>
                       </li>
                     </ul>
@@ -89,6 +90,7 @@ class About extends Component {
             </div>
           </div>
         </section>
+
     );
   }
 }

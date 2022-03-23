@@ -46,6 +46,12 @@ h4 {
 .fab {
   font-size: 5vw; }
 
+#portfolio,
+#about,
+#contact {
+  padding-top: 70px;
+}
+
 /*--------------------
         NAVBAR
 --------------------*/
