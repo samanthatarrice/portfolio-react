@@ -11,7 +11,7 @@ class About extends Component {
                 <div className="card toolkit-card border-0">
                   <div className="card-body text-center p-4 p-md-5">
                     <h3 className="card-title">Tech Toolkit</h3>
-                    <p className="card-text my-3">React, React Native, React-Bootstrap, Javascript, jQuery, CSS, Boostrap, Sass, HTML, Git, Github, Figma, VS Code</p>
+                    <p className="card-text my-3">React, React Native, React-Bootstrap, Javascript, jQuery, CSS, Boostrap, Sass, HTML, Git, Github, Figma, Adobe Creative Suite, VS Code</p>
                     <span><i className="fab fa-react m-2"></i><i className="fab fa-js-square m-2"></i><i className="fab fa-css3-alt m-2"></i><i className="fab fa-bootstrap m-2"></i><i className="fab fa-sass align-top pt-2 m-2"></i><i className="fab fa-gitkraken m-2"></i><i className="fab fa-figma m-2"></i></span>
                   </div>
                 </div>
