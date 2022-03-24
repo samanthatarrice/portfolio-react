@@ -13,10 +13,10 @@ class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav w-100 d-flex justify-content-evenly">
                 <li className="nav-item text-end ms-auto">
-                  <a href="#portfolio" className="nav-link">Portfolio</a>
+                  <a href="#portfolio" className="nav-link pt-4 pt-md-2">Portfolio</a>
                 </li>
                 <li className="nav-item mx-md-auto ms-auto">
-                  <a href="#about" className="nav-link">About</a>
+                  <a href="#about" className="nav-link py-3 py-md-2">About</a>
                 </li>
                 <li className="nav-item ms-auto ms-md-0 me-md-auto">
                   <a href="#contact" className="nav-link">Contact</a>
