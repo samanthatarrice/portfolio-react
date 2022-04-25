@@ -80,7 +80,6 @@ Created as one of my portfolio projects for my Full Stack Bootcamp. Basic one pa
     <img src="https://cdn-icons-png.flaticon.com/512/5968/5968704.png" width="70" height="70" alt="Figma icon">
     <img src="https://cdn-icons-png.flaticon.com/512/2111/2111420.png" width="70" height="70" alt="Git logo">
     <img src="https://cdn-icons-png.flaticon.com/512/1051/1051326.png" width="70" height="70" alt="Github logo">
-    <img src="https://media.vlpt.us/images/jisoolee11/post/59b75cbb-e395-4dd8-966b-e2b26731fc0c/expo_logo_icon_145293.png" width="70" height="70" alt="Expo logo">
   </div>
 
 
