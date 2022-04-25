@@ -33,7 +33,7 @@
     <br />
     <br />
     <a href="https://www.samantha-tarrice.com">
-      <img src="https://github.com/samanthatarrice/portfolio-react/blob/main/public/images/desktop-view.png" />
+      <kbd><img src="https://github.com/samanthatarrice/portfolio-react/blob/main/public/images/desktop-view.png"/></kbd>
     </a>
     <br />
   </p>
@@ -97,7 +97,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/samanthatarrice/portfolio-react.git
    ```
 2. Install NPM packages
    ```sh
