@@ -4,7 +4,7 @@ class Divider extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="pt-5">
+        <div className="pt-5 position-relative">
           <div className="divider">
             <div className="top-white-line"></div>
             <img src="images/waves2.svg" alt="wavy white divider" />
@@ -17,4 +17,4 @@ class Divider extends Component {
   }
 }
 
-export default Divider; 
+export default Divider;
