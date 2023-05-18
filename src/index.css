@@ -13,7 +13,7 @@ a:hover {
 
 p,
 li {
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: black; }
 
 h1, h2, h3, h4, .nav-link {
@@ -303,10 +303,9 @@ footer {
     margin-top: 27vw; }
   p,
   .experience-item p,
-  li {
-    font-size: 3vw; }
+  li,
   a {
-    font-size: 3vw; }
+    font-size: 14px; }
   h1 {
     font-size: 14vw;
     width: 80vw; }

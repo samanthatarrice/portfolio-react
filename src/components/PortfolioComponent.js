@@ -62,7 +62,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/travel-journal" target="_blank">Github repo</a>
                         </div>
-                        <a href="https://samanthatarrice.github.io/travel-journal/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
+                        <a href="https://samanthatarrice.github.io/travel-journal/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Site</a>
                       </div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/bobs_search_and_paint" target="_blank">Github repo</a>
                         </div>
-                         <a href="https://bobs-search-n-paint.netlify.app/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
+                         <a href="https://bobs-search-n-paint.netlify.app/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Site</a>
                       </div>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/seans_portfolio" target="_blank">Github repo</a>
                         </div>
-                        <a href="https://www.sean-tarrice.com/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
+                        <a href="https://www.sean-tarrice.com/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Site</a>
                       </div>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/stickies_notes_app/" target="_blank">Github repo</a>
                         </div>
-                        <a href="https://samanthatarrice.github.io/stickies_notes_app/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
+                        <a href="https://samanthatarrice.github.io/stickies_notes_app/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Site</a>
                       </div>
                     </div>
                   </div>
@@ -174,7 +174,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/bmos_matching_game/" target="_blank">Github repo</a>
                         </div>
-                        <a href="https://samanthatarrice.github.io/bmos_matching_game/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
+                        <a href="https://samanthatarrice.github.io/bmos_matching_game/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Site</a>
                       </div>
                     </div>
                   </div>

@@ -29,7 +29,7 @@
     My portfolio built with React
     <br />
     <br />
-    <a href="https://www.samantha-tarrice.com">👀View Live Site💻</a>
+    <a href="https://www.samantha-tarrice.com">👀View Site💻</a>
     <br />
     <br />
     <a href="https://www.samantha-tarrice.com">
