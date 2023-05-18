@@ -4,8 +4,8 @@ class Header extends Component {
   render() {
     return (
       <React.Fragment>
-        <nav className="navbar navbar-dark navbar-expand-md fixed-top py-md-3">
-          <div className="container-fluid">
+        <nav className="navbar navbar-dark navbar-expand-md fixed-top">
+          <div className="mobile-nav container px-3">
             <a href="#" className="navbar-brand d-md-none">Samantha Tarrice</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>

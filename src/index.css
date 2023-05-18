@@ -61,7 +61,14 @@ nav {
   background-color: rgb(105, 184, 223); }
   nav .container-fluid {
     font-size: 2vw;
-    height: 30px }
+    height: 30px;
+  }
+
+@media (max-width: 768px) {
+  nav .container-fluid {
+    height: 60px;
+  }
+}
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
