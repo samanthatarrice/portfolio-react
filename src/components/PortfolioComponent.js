@@ -99,7 +99,7 @@ class Portfolio extends Component {
             </div>
             <div className="accordion-item">
               <h3 className="accordion-header" id="projectHeading4">
-                <button className="accordion-button collapsed px-4 px-sm-5 py-4" type="button" data-bs-toggle="collapse" data-bs-target="#project4">Sean's Portfolio</button>
+                <button className="accordion-button collapsed px-4 px-sm-5 py-4" type="button" data-bs-toggle="collapse" data-bs-target="#project4">Graphic Designer's Portfolio</button>
               </h3>
               <div id="project4" className="accordion-collapse collapse mb-2 mb-sm-3" data-bs-parent="#portfolioAccordion">
                 <div className="accordion-body container px-5 px-sm-1">

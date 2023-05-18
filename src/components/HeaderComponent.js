@@ -32,7 +32,7 @@ class Header extends Component {
               <div className="col-md">
                 <h1>Hi, I'm Sam...</h1>
                 {/* <p>I am a dedicated developer who truly enjoys building high quality responsive web and mobile apps with keen attention to detail. As a former educator I understand the importance of always learning and working in a team. I'm available for remote part-time/full-time employment, or freelance work.</p> */}
-                <p>I’m a frontend developer who views coding as a combination of a creative process, problem solving, and science. As a previous educator for over a decade, I bring excellent communication and organizational skills to my team. Learn more about me in my <a href='#about'>about</a> section. I’m available for hire as a contractor or permanent hire, and would love to <a href='#contact'>hear</a> from you!</p>
+                <p>I’m a frontend developer who views coding as a combination of a creative process, problem solving, and science. As a previous educator for over a decade, I bring excellent communication and organizational skills to my team. Learn more about me in my <a href='#about'>about</a> section. I’m available for hire as a contractor or permanent employee, and would love to <a href='#contact'>hear</a> from you!</p>
               </div>
               <div className="col">
                 <img src="images/hero.png" alt="Woman sitting at desk working on a laptop." className="w-100" />
