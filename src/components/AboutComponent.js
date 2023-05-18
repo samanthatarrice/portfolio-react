@@ -58,9 +58,6 @@ class About extends Component {
                         <p className="">Bachelor of Arts in Art Education</p>
                       </li>
                     </ul>
-                    <div className="d-flex justify-content-end">
-                      <img className="img-fluid w-25 pt-2 pt-md-5" src="images/apple_logo.png" alt="Apple logo" />
-                    </div>
                   </div>
                 </div>
               </div>
