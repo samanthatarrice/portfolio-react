@@ -4,6 +4,8 @@ import { Modal, Button } from 'react-bootstrap'
 
 function Contact() {
 
+  //* Form Setup from: https://dev.to/abdulwaqar844/how-to-send-emails-from-a-react-application-without-a-backendserver-29j8
+
   init("CrN6FvUqChFO_VUIX");
   const form = useRef();
 
@@ -13,7 +15,7 @@ function Contact() {
 
   const handleContactFormSubmit = (e) => {
     e.preventDefault()
-    emailjs.sendForm("service_hj2mewb", "template_p37x3o2", form.current, "CrN6FvUqChFO_VUIX").then(
+    emailjs.sendForm("service_87kc4il", "template_p37x3o2", form.current, "CrN6FvUqChFO_VUIX").then(
       (result) => {
         setShowContactModal(true);
         console.log(result.text);
@@ -38,9 +40,9 @@ function Contact() {
             <form onSubmit={handleContactFormSubmit} ref={form} className="mx-auto">
               <div className="mb-3 form-group">
                 <label htmlFor="contactName" className="form-label">Name:</label>
-                <input 
-                  type="text" 
-                  className="form-control" 
+                <input
+                  type="text"
+                  className="form-control"
                   id="contactName"
                   name="contactName"
                   required
@@ -48,19 +50,19 @@ function Contact() {
               </div>
               <div className="mb-3 form-group">
                 <label htmlFor="contactEmail" className="form-label">Email:</label>
-                <input 
-                  type="email" 
-                  className="form-control" 
-                  id="contactEmail" 
+                <input
+                  type="email"
+                  className="form-control"
+                  id="contactEmail"
                   name="contactEmail"
                   required
               />
               </div>
-              <div className="mb-3 form-gorup">
+              <div className="mb-3 form-group">
                 <label htmlFor="contactMessage" className="form-label">Message:</label>
-                <textarea 
-                  id="contactMessage" 
-                  className="form-control" 
+                <textarea
+                  id="contactMessage"
+                  className="form-control"
                   rows="10"
                   name="contactMessage"
                   required
@@ -90,5 +92,3 @@ function Contact() {
 }
 
 export default Contact;
-
-//Form Setup from: https://dev.to/abdulwaqar844/how-to-send-emails-from-a-react-application-without-a-backendserver-29j8

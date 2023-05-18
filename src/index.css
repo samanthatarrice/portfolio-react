@@ -119,8 +119,8 @@ header {
   background-color: white; }
 
 .footer-divider {
-  position: relative;
-  height: 13.25vw; }
+  /* position: absolute; */
+  height: 15.25vw; }
 
 /*--------------------
        PORTFOLIO

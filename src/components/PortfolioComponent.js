@@ -24,7 +24,7 @@ class Portfolio extends Component {
                             Your browser does not support the video tag.
                           </video>
                         </div>
-                        
+
                       </div>
                     </div>
                     <div className="col ms-sm-2 mt-4 mt-sm-0">
@@ -62,7 +62,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/travel-journal" target="_blank">Github repo</a>
                         </div>
-                        <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://samanthatarrice.github.io/travel-journal/" target="_blank">Live Site</a></button>
+                        <a href="https://samanthatarrice.github.io/travel-journal/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
                       </div>
                     </div>
                   </div>
@@ -90,7 +90,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/bobs_search_and_paint" target="_blank">Github repo</a>
                         </div>
-                        <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://bobs-search-n-paint.netlify.app/" target="_blank">Live Site</a></button>
+                         <a href="https://bobs-search-n-paint.netlify.app/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
                       </div>
                     </div>
                   </div>
@@ -118,7 +118,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/seans_portfolio" target="_blank">Github repo</a>
                         </div>
-                        <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://www.sean-tarrice.com/" target="_blank">Live Site</a></button>
+                        <a href="https://www.sean-tarrice.com/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
                       </div>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/stickies_notes_app/" target="_blank">Github repo</a>
                         </div>
-                        <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://samanthatarrice.github.io/stickies_notes_app/" target="_blank">Live Site</a></button>
+                        <a href="https://samanthatarrice.github.io/stickies_notes_app/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
                       </div>
                     </div>
                   </div>
@@ -174,7 +174,7 @@ class Portfolio extends Component {
                           <i className="fab fa-github fs-1 me-2" />
                           <a className="github-link" href="https://github.com/samanthatarrice/bmos_matching_game/" target="_blank">Github repo</a>
                         </div>
-                        <button className="live-site-btn btn fs-5 text-decoration-none"><a href="https://samanthatarrice.github.io/bmos_matching_game/" target="_blank">Live Site</a></button>
+                        <a href="https://samanthatarrice.github.io/bmos_matching_game/" className="live-site-btn btn fs-5 text-decoration-none" target="_blank">Live Site</a>
                       </div>
                     </div>
                   </div>
@@ -184,7 +184,7 @@ class Portfolio extends Component {
           </div>
           <div className="text-center my-5 py-3">
             <p>See more of my work on <span>Github</span></p>
-            <a href="https://github.com/samanthatarrice" target="_blank"><i className="portfolio-fa fab fa-github" /></a>
+            <a href="https://github.com/samanthatarrice" target="_blank" aria-label="Sam's Github"><i className="portfolio-fa fab fa-github" /></a>
           </div>
         </section>
       </React.Fragment>
@@ -192,4 +192,4 @@ class Portfolio extends Component {
   }
 }
 
-export default Portfolio; 
+export default Portfolio;
