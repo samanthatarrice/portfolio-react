@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.5f3c6997.css",
-    "main.js": "./static/js/main.a556ab23.js",
+    "main.css": "./static/css/main.ec296ed7.css",
+    "main.js": "./static/js/main.8081b53f.js",
     "static/js/787.aeca62f9.chunk.js": "./static/js/787.aeca62f9.chunk.js",
     "static/media/mali-latin-300italic.woff": "./static/media/mali-latin-300italic.096e7e13cf85711dc234.woff",
     "static/media/mali-latin-500italic.woff": "./static/media/mali-latin-500italic.690449fc3d9fa6ed6e5e.woff",
@@ -30,12 +30,12 @@
     "static/media/lilita-one-latin-400.woff": "./static/media/lilita-one-latin-400.a6e083a36720af1dacc7.woff",
     "static/media/lilita-one-latin-400.woff2": "./static/media/lilita-one-latin-400.2b3f7fe52f14ab242343.woff2",
     "index.html": "./index.html",
-    "main.5f3c6997.css.map": "./static/css/main.5f3c6997.css.map",
-    "main.a556ab23.js.map": "./static/js/main.a556ab23.js.map",
+    "main.ec296ed7.css.map": "./static/css/main.ec296ed7.css.map",
+    "main.8081b53f.js.map": "./static/js/main.8081b53f.js.map",
     "787.aeca62f9.chunk.js.map": "./static/js/787.aeca62f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5f3c6997.css",
-    "static/js/main.a556ab23.js"
+    "static/css/main.ec296ed7.css",
+    "static/js/main.8081b53f.js"
   ]
 }
